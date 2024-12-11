@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Warna utama aplikasi -->
+    <color name="colorPrimary">#6200EE</color> <!-- Ungu gelap -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Ungu lebih gelap -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Warna teks di atas colorPrimary -->
+
+</resources>

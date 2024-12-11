@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mata Kuliah"
+        android:textColor="#212121"
+        android:textColorHint="#616161"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Menambahkan padding lebih besar untuk EditText -->
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Waktu (HH:MM)"
+        android:textColor="#212121"
+        android:textColorHint="#616161"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Menambahkan padding lebih besar untuk Button -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Jadwal"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
